@@ -1,0 +1,105 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/60108123d58c7f4754c2b6b5_6002086f72b727df6d01df3b_business-website-examples.jpeg");
+  
+}
+
+.header {
+  overflow: hidden;
+  position: sticky;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 25px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+    position: relative;
+    left:45px;
+  font-size: 40px;
+  font-weight: 900;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header a:hover {
+  
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+.content{
+    margin: 80px 240px 24px;
+}
+
+#t1{
+    font-size: 80px;
+    color: whitesmoke;
+    position: relative;
+    right:180px;
+    top:120px;
+    
+}
+
+#t2{
+    font-size: 60px;
+    color:#c3c6ca;
+    position: relative;
+    right:180px;
+    top:140px;
+    margin-right: 10cm;
+    padding-bottom: 10px;
+}
+.container{
+    position: relative;
+    bottom:220px;
+    
+    margin-left: 33cm;
+    margin-right: 10cm;
+    padding: 22px 20px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 15cm;
+}
+.form-control{
+    width: 13cm;
+    padding-bottom: 10px;
+}
+
+.sup{
+    font-weight:600;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+

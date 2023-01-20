@@ -1,0 +1,88 @@
+* {box-sizing: border-box;}
+
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://i.pinimg.com/originals/ad/88/4c/ad884cd4669d67b79761b9fdd743f3d6.jpg");
+}
+
+.header {
+  overflow: hidden;
+  position: sticky;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 25px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+    position: relative;
+    left:45px;
+  font-size: 40px;
+  font-weight: 900;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header a:hover {
+  
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+
+.container{
+    margin-top: 2cm;
+    margin-left: 15cm;
+    margin-right: 5cm;
+    padding: 22px 20px;
+    box-sizing: border-box;
+    background-color: white;
+    width: 22cm;
+    
+}
+
+.form-control{
+    width: 20cm;
+    padding-bottom: 10px;
+}
+
+.container-signin{
+    height: 20px;
+    padding:5px;
+}
+
+.sup{
+    font-weight:600;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
